@@ -2,7 +2,7 @@
   "name": "sprint-challenge-node-express",
   "version": "1.0.0",
   "description": "## Assignments",
-  "main": "knexfile.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pfang/Sprint-Challenge-Node-Express.git"
@@ -18,7 +18,7 @@
     "sqlite3": "^4.0.0"
   },
   "scripts" : {
-    "start": "nodemon"
+    "start": "nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
